@@ -1,0 +1,28 @@
+{
+  "name": "api-gestao-funcionario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianoBarros2000/api-gestao-funcionario"
+  },
+  "keywords": [],
+  "author": " Juliano Barros Dev",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JulianoBarros2000/api-gestao-funcionario/issues"
+  },
+  "homepage": "https://github.com/JulianoBarros2000/api-gestao-funcionario#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.4",
+    "nodemon": "^3.1.14",
+    "zod": "^4.6.5"
+  }
+}
